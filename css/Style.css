@@ -1,5 +1,5 @@
 .carousel{
-	padding-top: 35px;
+	padding-top: 0.2px;
 }
 
 .menu-superior{
@@ -14,21 +14,25 @@
 
 
 .menu-superior{
-	border-left: 1px solid white;
+	border-left: 5px solid white;
 }
 
 .menu_superior{
-
+     
 	 color: white;
 	}
 
+ .carouselbanner{
+    border: solid 4px;   /*coloquei borda no carrousel banner verificar na responsividade*/
+	
+ }
 
 .carousel{
-	max-width: 1100px;
+	max-width: 1500px;
 }
 
 .main{
- min-height: 100px;
+ min-height: 10px;
 }
 
 .icon-bar {
@@ -66,7 +70,17 @@
 }
 
 .rodape{
-background-color: black;color:white;
+background-color: rgba(36, 36, 37, 0.801);color:white;
 text-align:center;
+image-rendering: auto;
 padding: 50px;
 }
+
+body {
+ background-image: url(../img/backgroundclima.jpeg);
+ background-image:cover;
+ background-position: center center;
+ 
+    
+}
+

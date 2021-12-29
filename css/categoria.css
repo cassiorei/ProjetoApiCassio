@@ -2,16 +2,17 @@
 
 .categorias ul{
 	           
-	padding-left: 10px;
+	padding-left: 2px;
 }
 
 .categorias li{
-	border: 1px solid black;
+	border: 2px solid black;
 	border-bottom: 2px solid white;   /* fundo da categoria */
 	background-color: #987543;
 	padding-left: 15px;
 	text-align: left;
 	text-transform: uppercase;
+	
 
 }
 
@@ -19,6 +20,7 @@
 	color: white;
 	text-decoration: none;   /* texto da categoria */
 	font-size: 35px;
+	
 }
 
 .categorias li:hover{
@@ -31,4 +33,5 @@
                 3px 3px #53a7ea;
         -webkit-transform: translateX(-3px);
         transform: translateX(-3px);
+		
 }
