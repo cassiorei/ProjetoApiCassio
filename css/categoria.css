@@ -1,23 +1,34 @@
+
+
 .categorias ul{
-	list-style: none;
-	padding-left: 0px;
+	           
+	padding-left: 14px;
 }
 
 .categorias li{
 	border: 1px solid black;
-	border-bottom: 1px solid white;
-	background-color: #005797;
-	padding-left: 5px;
+	border-bottom: 2px solid white;   /* fundo da categoria */
+	background-color: #987543;
+	padding-left: 15px;
 	text-align: left;
+	text-transform: uppercase;
+
 }
 
 .categorias a{
 	color: white;
-	text-decoration: none;
-	font-size: 22px;
+	text-decoration: none;   /* texto da categoria */
+	font-size: 35px;
 }
+
 .categorias li:hover{
 	color: white;
-	background-color: #b81e1e;
+	background-color: #987543;  /* categoria de menu esquerda */
 	transition: 0.6s;
+	box-shadow:     /* efeito de sombra 3d box-shadow*/
+                1px 1px #53a7ea,
+                2px 2px #53a7ea,
+                3px 3px #53a7ea;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
 }

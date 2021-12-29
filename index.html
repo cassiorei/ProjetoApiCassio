@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv=”content-type” content="text/html;" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title> Previsão Do Tempo</title>
+    <meta name="keywords" content="tags, que, eu, quiser, usar, para, os, robos, do, google" />
+    <title>Meu Site - Produtos</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,7 +13,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         
     <!-- ESTILOS PARA ESTA PÁGINA -->
-    <link href="css/estilo.css" rel="stylesheet"/>
+    <link href="css/Style.css" rel="stylesheet"/>
     <link href="css/categoria.css" rel="stylesheet"/>
     
     <!-- JAVASCRIPT E JQUERY -->
@@ -22,9 +23,9 @@
 </head>
 <body>
 <!-- INÍCIO DO MENU SUPERIOR -->
-<nav class="navbar navbar-inverse navbar-fixed-top" id="menu_superior" role="navigation"class="navbarcor" >
+<nav class="navbar navbar-inverse navbar-fixed-top">
 <!--nav class="navbar navbar-default navbar-fixed-top"-->
-        <div class="container" >
+        <div class="container">
 
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -33,23 +34,25 @@
                     <i class="material-icons botao-sanduiche">&#xe8fe;</i>
                     
                 </button>
-                <a class="navbar-brand" href="index.html">
-                   <img src="img/logo/logo.png" alt="">
+                <a class="navbar-brand" href="index">
+                   <img src="img/logo/logo" alt="">
                 </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <nav class="collapse navbar-collapse navegacao" id="bs-example-navbar-collapse-1">
             <!-- **************************************** MENU DE NAVEGAÇÃO ************************************* -->
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="contato.html" target="_self" class="texto-menu">Home</a></li>
-                    <li><a href="contato.html" target="_self">Quem Somos</a></li>
-                    <li><a href="contato.html" target="_self">Contato</a></li>                   
+                    <li id="textolink"><a href="#">Home</a></li>
+                    <li><a href="#" target="">Previsão</a></li>
+                    <li><a href="#" target="">Clima e tempo</a></li>
+                    <li><a href="#" target="">Quem Somos</a></li>
+                    <li><a href="#" target="">Contato</a></li>                   
                 </ul>
             </nav>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
-    
+        
     </nav>
 <!-- FIM DO MENU SUPERIOR -->
 
@@ -58,12 +61,12 @@
 <!-- INÍCIO DO CAROUSEL -->
 <div class="container">
 		<div class="row">
-        <div class="col-lg-17">
+        <div class="col-lg-12">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
             
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li  data-target="#myCarousel" data-slide-to="1" ></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
                 <li data-target="#myCarousel" data-slide-to="3"></li>
             </ol>
@@ -80,6 +83,20 @@
 </div>
 
 <div class="row">
+    <!-- INÍCIO DO MENU CATEGORIA -->
+    <div class="col-md-3 col-lg-3 col-sm-4 col-xs-12 categorias">
+        <nav>
+	          <h3 class="text-center" class="">Informações</h3>
+	          <ul>
+	              <a href="#" target="_self"><li>Mapas</li></a>
+	              <a href="#" target="_self"><li>Noticias</li></a>
+	              <a href="#" target="_self"><li>Canais</li></a>
+	              <a href="#" target="_self"><li>Clima</li></a>
+	              <a href="#" target="_self"><li>Deixe sua opinião</li></a>
+	          </ul>
+        </nav>
+    </div>
+    <!-- FIM DO MENU CATEGORIA -->
     
     <!-- EXIBIÇÃO DOS PRODUTOS -->
     <main class="col-md-9 col-lg-9 col-sm-8 col-xs-12 produtos">
@@ -87,10 +104,10 @@
     	<div class="col-md-4 col-lg-3 col-sm-6 col-xs-12 text-center">
     		<a href="#">
     			<img src="img/produtos/produto1.jpg" alt="imagem do produto 1">
-    			<label>Produto 1</label>
+    			<label>Previsão</label>
     		</a>
     	</div>
-    	<div class="col-md-4 col-lg-3 col-sm-6 col-xs-12 text-center">
+    	<div  class="col-md-4 col-lg-3 col-sm-6 col-xs-12 text-center">
     		<a href="#">
     			<img src="img/produtos/produto2.jpg" alt="imagem do produto 2">
     			<label>Produto 2</label>
@@ -130,10 +147,10 @@
 <!-- INÍCIO DO RODAPÉ -->
     <footer>
         <p class="text-center" style="background-color: black;color:white">
-             &copy;2021</br>
+             &copy;2017
              </br>
-             </br>
-              <a  target="footer">Cassio</a>
+             <br>
+             <a href="" target="_blank">Cassio</a>
         </p>
     </footer>
 <!-- FIM DO RODAPÉ -->
