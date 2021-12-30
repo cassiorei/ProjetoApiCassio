@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv=”content-type” content="text/html;" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Meu Site - Produtos</title>
+    <title>Clima e Tempo</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,6 +14,8 @@
     <!-- ESTILOS PARA ESTA PÁGINA -->
     <link href="css/Style.css" rel="stylesheet"/>
     <link href="css/categoria.css" rel="stylesheet"/>
+    <link href="../ProjetoApi/css/footer.css" rel="stylesheet"/>
+    
     
     <!-- JAVASCRIPT E JQUERY -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -46,7 +48,7 @@
                     <li><a href="#" target="">Previsão</a></li>
                     <li><a href="#" target="">Clima e tempo</a></li>
                     <li><a href="#" target="">Quem Somos</a></li>
-                    <li><a href="#" target="">Contato</a></li>                   
+                    <li><a href="../ProjetoApi/Contato.html" target="">Contato</a></li>                   
                 </ul>
             </nav>
             <!-- /.navbar-collapse -->
@@ -73,8 +75,8 @@
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
                     <a href="#" target="_self">
-                        <img src="img/imagembanner1.jpg" alt="banner rotativo" class="img-responsive">
-                        </a>
+                        <img src="img/banner.jpg" alt="banner rotativo" class="img-responsive">
+                 </a>
                 </div>
            </div>
         	</div>
@@ -100,7 +102,7 @@
     
     <!-- EXIBIÇÃO DOS PRODUTOS -->
     <main class="col-md-9 col-lg-9 col-sm-8 col-xs-12 produtos">
-    	<h1 class="text-center">Livros</h1>
+    	<h1 class="text-center">Tempo & Previsão</h1>
     	<div class="col-md-4 col-lg-3 col-sm-6 col-xs-12 text-center">
     		<a href="#">
     			<img src="img/produtos/produto1.jpg" alt="imagem do produto 1">
@@ -137,10 +139,40 @@
 
 </div>
 <!-- INÍCIO DO RODAPÉ -->
-    <footer class="rodape">
-        <img src="../ProjetoApi/img/climatempologo.png" alt=" Clima e Tempo">
-        <p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>  <!-- rodape com imagem -->
-
+<div class="content">
+</div>
+    <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h5>Inicio</h5>
+                    <ul>
+                        <li><a href="../ProjetoApi/">Home</a></li>
+                        <li><a href="../ProjetoApi/">Previsão</a></li>
+                        <li><a href="../ProjetoApi/">Clima</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Sobre nós</h5>
+                    <ul>
+                        <li><a href="../ProjetoApi/">Informações da Empresa</a></li>
+                        <li><a href="../ProjetoApi/">Contato</a></li>
+                        <li><a href="../ProjetoApi/">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 info">
+                    <h5>Informações</h5>
+                    <p> Aqui vão Informações ligada a Api DO Tempo </p>
+                </div>
+            </div>
+        </div>
+        <div class="second-bar">
+           <div class="container">
+                <h2 class="logo"><a href="../ProjetoApi/img/climaetempo.jpg"> CLIMA & TEMPO </a></h2>
+                <div class="social-icons">    
+                </div>
+            </div>
+        </div>
     </footer>
 <!-- FIM DO RODAPÉ -->
 </body>
