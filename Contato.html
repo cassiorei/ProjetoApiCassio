@@ -50,10 +50,10 @@
         </nav>
     <!-- FIM DO MENU SUPERIOR -->
     <div>
-    <form class="formulario">
-        <label>Nome completo:</label required><br />
+    <form class="formulario" method="POST" action="salvamensagem.html">  <!-- method post salva mensagem-->
+        <label>Nome completo:</label><br />
         <input  type="text" required autofocus pattern="^[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$"
-          title="Digite o Nome completo" placeholder="Zé Preguiça"/><br/>
+          title="Digite o Nome completo" placeholder="EX: João Dos Santos"/><br/>
     
         <label>CPF:</label><br />
         <input type="text" required pattern="^(\d{3}\.\d{3}\.\d{3}-\d{2})|(\d{11})$"
@@ -62,7 +62,7 @@
         <label>Email:</label><br />
         <input type="email" required/><br />
     
-        <label>Senha:</label><br />
+        <label>Digite uma Senha:</label><br />
         <input type="password" required title="A senha deve conter ao menos 1 letra minúscula, 1 letra maiúscula
         1 número ou caractere especial e ter um mínimo de 8 caracteres"
         pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"><br />
@@ -74,7 +74,7 @@
         <label>Data de Nascimento:</label><br/>
         <input  type="date" required min="1938-01-01" max="2000-12-31"/><br /><br />
     
-        <input type="submit" value="Enviar" />
+        <input type="submit" value="Enviar" onclick="retorno-validar-contato" />  <!-- função onclick retorno validar contato-->
     
       </form>
     </div>    
@@ -125,5 +125,10 @@
                           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
                           <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
                           <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script >
+      function valida (){
 
+
+      }  
+     </script>   <!--srcipt de validação formulario-->
 </html>
