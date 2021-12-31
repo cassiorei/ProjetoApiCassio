@@ -69,15 +69,5 @@
 
 }
 
-/* IMAGEM DO BACKGROUND*/
-body {
-    width: 100%;
-    height: 100%;
-    background-image: url(../img/backgroundclima.jpeg);
-    background-image:cover;
-    background-position: center center;
-	background-repeat: no-repeat;
- 
-    
-}
+
 
