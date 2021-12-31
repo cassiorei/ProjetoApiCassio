@@ -1,3 +1,3 @@
 <h1>
-   <img src="img/banner.jpg">
+   <img src="img/climaetempo.jpg">
 </h1>
