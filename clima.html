@@ -16,14 +16,9 @@
     <link href="css/categoria.css" rel="stylesheet"/>
     <link href="../ProjetoApi/css/footer.css" rel="stylesheet"/>
     <link href="../ProjetoApi/css/imagembackground.css" rel="stylesheet">
-    
-    
-    <!-- JAVASCRIPT E JQUERY -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-</head>
-<body>
+    <link href="../ProjetoApi/css/styleapitempo.css" rel="stylesheet"/>
+ </head>
+<body>    
 <!-- INÍCIO DO MENU SUPERIOR -->
 <nav class="navbar navbar-inverse navbar">
 
@@ -58,9 +53,44 @@
         
     </nav>
 <!-- FIM DO MENU SUPERIOR -->
-
-
-</div>
+<!-- inicio bootstrap com cards -->
+<body>
+    <div class="container-fluid p-0 container-sm d-flex justify-content-center">
+  
+      <div class="card text-center shadow-lg" style="width: 26rem;">
+  
+        <div class="card-header bg-white text-dark font-weight-bold">
+          TEMPO E TEMPERATURA
+        </div>
+  
+        <div class="card-body">
+          <div class="city">Cidade Exemplo, BR</div>
+          <div class="date">Terça, 1 Dezembro 2020</div>
+          <div class="container-img">
+            <img src="../ProjetoApi/">
+          </div>
+          <div class="container-temp mx-4 my-3">
+            <div>22</div>
+            <span>°c</span>
+          </div>
+          <div class="weather py-2">Nublado</div>
+          <div class="low-high">22°c / 23°c</div>
+        </div>
+  
+        <div class="card-footer bg-white">
+          <div class="input-group ">
+            <input type="text" class="form-control bg-light" placeholder="digite o nome da cidade" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-outline-warning text-dark" type="button" id="button-addon2">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+<!-- FIM DO BOOSTRAP COM CARDS-->
 <!-- INÍCIO DO RODAPÉ -->
 <div class="content">
 </div>
@@ -99,4 +129,12 @@
     </footer>
 <!-- FIM DO RODAPÉ -->
 </body>
+     <!-- JAVASCRIPT E JQUERY -->
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+     <!--SCRIPT API DO TEMPO-->
+     <script src="script.js"></script>
+     <script src="https://kit.fontawesome.com/f0e17cbf2f.js" crossorigin="anonymous"></script>
+
 </html>
