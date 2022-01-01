@@ -1,44 +1,4 @@
-.carousel{
-	padding-top: 90px;
-}
-
-.menu-superior{
-	font-weight: bold;
-	background-color: red;
-}
-
-
-.menu-superior{
-	color: white;
-}
-
-
-.menu-superior{
-	border-right: 5px solid white;
-}
-/*.corpobody{
-
-		font-family: gotham, arial, helvetica, sans-serif;
-		font-size: 18px;
-		margin: 0;
-		padding: 0;
-		margin: 0 auto;
-			height: 100%;
-		} */	
-
-
-
-
-
-.menu_superior{
-     
-	 color: white;
-	}
-
- /*.carouselbanner{
-  } /*coloquei borda no carrousel banner verificar na responsividade*/
    
- 
 
 .carousel{
 	max-width: 1500px;
@@ -54,6 +14,7 @@
 
 .botao-sanduiche{
 	padding-bottom: -5px;
+	position: absolute;
 }
 
 .navbar-header button:hover{
