@@ -2,7 +2,8 @@
 body {
     
     background-image: url(../img/climabackground.jpeg);
-    background-position: center; 
+    /*background-position: center;*/
     background-size: cover; 
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
+  
   }
