@@ -1,5 +1,5 @@
 <html>
-<h1>
+<h1 align="center">
    <img src="img/climaetempo.jpg">
 </h1>
 </html>
