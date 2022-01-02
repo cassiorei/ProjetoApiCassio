@@ -1,15 +1,18 @@
 
 .formulario{
+    border-color: #C78C19;
+    font-style: italic;
     text-align: center;
     height: auto;
     padding: 65px;
-    color: rgb(255, 255, 255);/*cor do texto menu*/
+    color: #C78C19;/*cor do texto menu*/
 	text-decoration: none;   /* texto da categoria */
 	font-size: 25px;
-    transition: 0.9s;
     
-	
 }
+    
+
+
 
 
 

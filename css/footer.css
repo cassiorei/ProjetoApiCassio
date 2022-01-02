@@ -31,7 +31,7 @@
 }
 
 #myFooter .second-bar .logo a{
-    color:white;
+    color: #C78C19;
     font-size: 28px;
     float: left;
     font-weight: bold;
@@ -95,6 +95,7 @@ body{
     height: 100%;
     
 }
+
 
 .content{
    flex: 1 0 auto;
