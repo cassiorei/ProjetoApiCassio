@@ -8,6 +8,7 @@ body{
 
 .city{
     font-size: 32px;
+    color: chartreuse;
 }
 
 .date {
@@ -33,4 +34,12 @@ body{
 
 .low-high {
     font-size: 22px;
+}
+
+.input-group{
+    align-items: right;
+    color: chartreuse;
+}
+.form-control{
+    padding: 5px;
 }
