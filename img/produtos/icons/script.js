@@ -3,6 +3,7 @@ const api = {
     base: "https://api.openweathermap.org/data/2.5/",
     lang: "pt_br",
     units: "metric"
+
 }
 
 const city = document.querySelector('.city')
@@ -15,6 +16,10 @@ const weather_t = document.querySelector('.weather');
 const search_input = document.querySelector('.form-control');
 const search_button = document.querySelector('.btn');
 const low_high = document.querySelector('.low-high');
+
+
+
+
 
 window.addEventListener('load', () => {
     //if ("geolocation" in navigator)

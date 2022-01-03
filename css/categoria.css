@@ -2,11 +2,11 @@
 
 .categorias ul{
 	           
-	padding-left: 2px;
+	padding:2px;
 }
 
 .categorias li{
-	border: 2px solid black;
+	border: 2px solid rgb(238, 232, 232);
 	border-bottom: 2px solid white;   /* fundo da categoria */
 	background-color: rgba(0,0,0,0.3);
 	padding-left: 15px;

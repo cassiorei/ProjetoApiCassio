@@ -3,7 +3,7 @@
     border-color: #C78C19;
     font-style: italic;
     text-align: center;
-    height: auto;
+    
     padding: 65px;
     color: #C78C19;/*cor do texto menu*/
 	text-decoration: none;   /* texto da categoria */
@@ -12,9 +12,13 @@
     
 }
 
-.city{
-    color: rgb(167, 124, 45);
+.rodape{
+    background-color: rgba(36, 36, 37, 0.801);color:white;
+text-align:center;
+image-rendering: auto;
+padding: 10px;
 }
+
 
 
 
