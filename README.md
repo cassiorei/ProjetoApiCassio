@@ -16,7 +16,7 @@
 ---
 
 # CLIMA & TEMPO
-O projeto 🌤**CLIMA & TEMPO** foi desenvolvido utilizando cursos da Alura com intuito de colocar em pratica todo conhecimento adquerido durante os estudos.
+O projeto 🌤**CLIMA & TEMPO** foi desenvolvido utilizando cursos da Alura com intuito de colocar em pratica todo conhecimento adquirido durante os estudos.
 ---
 # ⚡Tecnologias utilizadas
 
