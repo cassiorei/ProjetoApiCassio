@@ -1,11 +1,11 @@
    
 
 .carousel{
-	max-width: 1500px;
+	max-inline-size: 1500px;
 }
 
 .main{
- min-height: 100px;
+ min-block-size: 100px;
 }
 
 .icon-bar {
@@ -13,16 +13,16 @@
 }
 
 .botao-sanduiche{
-	padding-bottom: -5px;
+	padding-block-end: -5px;
 }
 
 .navbar-header button:hover{
 	background-color: rgba(0,0,0,0.3);
 }
 
-@media(max-width:768px) {
+@media(max-inline-size:768px) {
     .carousel {
-    	padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    	padding-block-start: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
     }
 
     .navbar-fixed-top  {
@@ -32,7 +32,7 @@
 }
 
 .produtos img{
-	width: 100%;
+	inline-size: 100%;
 }
 
 
@@ -41,6 +41,3 @@
 	padding: 10px;   /*navebar superior top*/
 
 }
-
-
-

@@ -7,10 +7,10 @@
 
 .categorias li{
 	border: 2px solid rgb(238, 232, 232);
-	border-bottom: 2px solid white;   /* fundo da categoria */
+	border-block-end: 2px solid white;   /* fundo da categoria */
 	background-color: rgba(0,0,0,0.3);
-	padding-left: 15px;
-	text-align: left;
+	padding-inline-start: 15px;
+	text-align: start;
 	text-transform: uppercase;
 	
 }
